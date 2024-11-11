@@ -1,0 +1,20 @@
+ETL Streaming Project: 
+
+Commands: 
+
+docker: 
+
+docker-compose up -d : start all the services defined in the docker-compose.yml file 
+
+docker ps: check if services are up and healthy 
+
+docker-compose logs: checking logs
+
+
+python: 
+
+python dags/kafka_stream.py
+
+
+
+
